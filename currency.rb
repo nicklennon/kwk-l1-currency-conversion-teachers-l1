@@ -63,23 +63,17 @@ def menu_input
     puts usd_to_jpy(amount)
   when 3
     #code here
-    conv = usd_to_gbp(amount)
-    puts "Conversion Amount: #{conv}"
+    puts usd_to_gbp(amount)
   when 4
     #code here
-    conv = usd_to_aud(amount)
-    puts "Conversion Amount: #{conv}"
+    puts usd_to_aud(amount)
   when 5
     #code here
-    conv = eur_to_usd(amount)
-    puts "Conversion Amount: #{conv}"
+   puts eur_to_usd(amount)
   when 6
-    #code here
-    conv = jpy_to_usd(amount)
-    puts "Conversion Amount: #{conv}"
+    puts jpy_to_usd(amount)
   when 7
-    #code here
-    conv = gbp_to_usd(amount)
+puts gbp_to_usd(amount)
   when 8
     #code here
     conv = aud_to_usd(amount)
