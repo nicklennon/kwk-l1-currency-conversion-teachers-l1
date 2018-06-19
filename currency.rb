@@ -57,7 +57,6 @@ def menu_input
   when 1
     #code here
     puts usd_to_eur(amount)
-    
   when 2
     #code here
     puts usd_to_jpy(amount)
@@ -80,5 +79,3 @@ def menu_input
     puts "Invalid input, exiting..."
   end
 end
-
-menu_input
