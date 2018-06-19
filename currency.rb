@@ -89,3 +89,5 @@ def menu_input
     puts "Invalid input, exiting..."
   end
 end
+
+menu_input
