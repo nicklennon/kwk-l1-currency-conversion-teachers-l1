@@ -56,12 +56,11 @@ def menu_input
   case choice
   when 1
     #code here
-    puts conv = usd_to_eur(amount)
-    puts "Conversion Amount: #{conv}"
+    puts usd_to_eur(amount)
+    
   when 2
     #code here
-    conv = usd_to_jpy(amount)
-    puts "Conversion Amount: #{conv}"
+    puts usd_to_jpy(amount)
   when 3
     #code here
     conv = usd_to_gbp(amount)
